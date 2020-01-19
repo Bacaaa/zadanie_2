@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+*{
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+body{
+    background: #282c4c;
+}
+#container{
+    width: 375px;
+    margin: 20px auto;
+    height: 450px;
+    background: white;
+    border-radius: 5px;
+    padding: 10px;
+}
+h4{
+    text-transform: uppercase;
+    color:#5798e4;
+    font-size: 13px;
+}
+.chartContainer{
+    position: relative;
+    width:120px;
+    height:120px;
+    float:left;
+
+}
+.chartContainer p, .chartContainer h3, .chartContainer b{
+    position: absolute;
+    text-align: center;
+    left:0px;
+    right: 0px;
+}
+.chartContainer p{
+    top:20px;
+    font-size: 12px;
+    color:#7b838b;
+}
+.chartContainer h3 {
+    top:20px;
+    font-size:26px;
+}
+.chartContainer b {
+    top: 90px;
+    font-size: 10px;
+}
+.chart{
+    width:120px;
+    height:120px;
+    padding:10px;
+}
+.chartDetails{
+    width:235px;
+    height:120px;
+    float:left;
+    padding:15px 15px 0px 15px;
+}
+.streak{
+    float:left;
+    width: 50%;
+    text-align: center;
+}
+.streak h5, .streak h6{
+    margin:5px;
+}
+.streak h5{
+    font-size: 16px;
+}
+.minsLeft{
+    margin:0px;
+    font-size: 13px;
+    margin-bottom: 15px;
+}
+.score{
+    height: 50px;
+    width: 100%;
+    box-shadow: 1px 2px 2px #e6e6e6;
+    border-radius: 3px;
+    margin:3px 0px;
+    padding-right: 10px;
+}
+.score .lp{
+    float: left;
+    width: 30px;
+    height: 30px;
+    border: 2px solid #0dc06d;
+    border-radius: 50px;
+    text-align: center;
+    font-weight: bold;
+    color:#0dc06d;
+    padding-top: 3px;
+    margin: 10px;
+}
+.score .person{
+    float: left;
+    font-weight: bold;
+    font-size: 10px;
+    font-size: 14px;
+    margin: 16px 0px;
+}
+.score .distance{
+    float:right;
+    margin: 15px 0px;
+
+}
+.score .arrow {
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 7.5px 15px 7.5px;
+    border-color: transparent transparent #0dc06c transparent;
+    float: right;
+    margin: 16px 10px;
+}
+.score .circle{
+    width:15px;
+    height:15px;
+    background: #dfe3e9;
+    float: right;
+    border-radius: 50px;
+    margin: 17px 10px;
+}
+.score.ative{
+    background: #0dc06c;
+    color:white;
+}
+.score.ative .arrow{
+    border-color: transparent transparent white transparent;
+}
+.score.ative .lp{
+    border-color:white;
+    color:white;
+}
+#selectPeriod{
+    border: 1px solid #dadbe2;
+    border-radius: 5px;
+    float: right;
+    height: 35px;
+    background: #fcfcfd;
+    width: 100px;
+    padding: 5px;
+    margin-top:10px;
+}
